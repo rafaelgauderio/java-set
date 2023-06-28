@@ -70,7 +70,8 @@ public class Product implements Comparable<Product> {
 	@Override
 	public int compareTo(Product other) {
 		// convertendo para minuscula antes de comparar por nome
-		return name.toLowerCase().compareTo(other.getName().toLowerCase());
+		//return name.toLowerCase().compareTo(other.getName().toLowerCase());
+		return -price.compareTo(other.getPrice()); // comparando por price em ordem descedente
 	}	
 
 	

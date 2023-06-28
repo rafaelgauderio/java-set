@@ -14,7 +14,7 @@ public class ProgramIgualdadeTreeSet {
 		products.add(new Product("Sabonete",200.50));
 		products.add(new Product("Hidratante",45.90));		
 		products.add(new Product("Detergente",1500.0));
-		products.add(new Product("Desinfetante", 1500.0));
+		products.add(new Product("Desinfetante",700.0));
 		products.add(new Product("Amaciante", 420.30));
 		
 		// vai disparar exceção se tentar imprimir sem implementar a class Comparable na class Product

@@ -22,9 +22,14 @@ public class ProgramaIgualdade {
 		products.add(new Product("Hidratante",45.90));
 		
 		Product p1 = new Product("Detergente",1500.0);
+		Product p2 = new Product("Desinfetante", 1500.0);
 		
 		// comparando a referência das estâncias vai dizer que os objetos não são iguais
-		System.out.println(products.contains(p1)); // false
+		// após implementar hashCode e equals vai dar verdadeiro se name e price foram iguais
+		System.out.println(products.contains(p1)); // true
+		System.out.println(products.contains(p2)); // false
+		
+		
 		
 		
 

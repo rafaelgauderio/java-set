@@ -5,7 +5,7 @@ import java.util.Set;
 
 import entities.Product;
 
-public class ProgramaIgualdade {
+public class ProgramaIgualdadeSet {
 
 	public static void main(String[] args) {
 		
@@ -28,10 +28,6 @@ public class ProgramaIgualdade {
 		// após implementar hashCode e equals vai dar verdadeiro se name e price foram iguais
 		System.out.println(products.contains(p1)); // true
 		System.out.println(products.contains(p2)); // false
-		
-		
-		
-		
 
 	}
 
